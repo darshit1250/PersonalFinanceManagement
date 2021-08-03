@@ -183,11 +183,11 @@ class finance_expert(object):
     finance_expert.Entertainment_per=finance_expert.Entertainment*100/finance_expert.wants_total
     finance_expert.Hobbies_per=finance_expert.Hobbies*100/finance_expert.wants_total
 
-    finance_expert.Real_estate_per=finance_expert.Real_estate*100/finance_expert.savings_per
-    finance_expert.Stocks_per=finance_expert.Stocks*100/finance_expert.savings_per
-    finance_expert.Mutalfunds_per=finance_expert.Mutalfunds*100/finance_expert.savings_per
-    finance_expert.Pf_retirement_per=finance_expert.Pf_retirement*100/finance_expert.savings_per
-    finance_expert.Fixed_deposit_per=finance_expert.Fixed_deposit*100/finance_expert.savings_per
+    finance_expert.Real_estate_per=finance_expert.Real_estate*100/finance_expert.savings_total
+    finance_expert.Stocks_per=finance_expert.Stocks*100/finance_expert.savings_total
+    finance_expert.Mutalfunds_per=finance_expert.Mutalfunds*100/finance_expert.savings_total
+    finance_expert.Pf_retirement_per=finance_expert.Pf_retirement*100/finance_expert.savings_total
+    finance_expert.Fixed_deposit_per=finance_expert.Fixed_deposit*100/finance_expert.savings_total
 
 
     #--------------------Accumulated_finance_management_Section-----------------------------
